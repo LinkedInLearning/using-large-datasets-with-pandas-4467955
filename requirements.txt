@@ -1,1 +1,9 @@
-# Specify Python package requirements for your project here (e.g., Mako==1.1.1). If your project doesn't require these, you can leave this file unchanged or delete it.
+dask ~= 2023.12
+duckdb ~= 0.9
+graphviz ~= 0.20  # dask visualization
+numba ~= 0.58
+pandas ~= 2.1
+polars ~= 0.19
+pyarrow ~= 14.0
+
+jupyter ~= 1.0  # For VSCode
