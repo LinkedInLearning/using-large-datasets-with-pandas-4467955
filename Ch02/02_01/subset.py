@@ -21,7 +21,8 @@ df.groupby('VendorID')['trip_distance'].median()
 
 # %% Load subset of columns
 
-df = pd.read_parquet(file_name, columns=['VendorID', 'trip_distance'])
+columns=['VendorID', 'trip_distance']
+df = pd.read_parquet(file_name, columns=columns)
 df.memory_usage(deep=True).sum() / mb
 
 # %% Calculate median distance by VendorID
