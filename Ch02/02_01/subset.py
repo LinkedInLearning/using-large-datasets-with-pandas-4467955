@@ -19,6 +19,9 @@ Path(file_name).stat().st_size / mb
 
 df.groupby('VendorID')['trip_distance'].median()
 
+# %%
+df.columns
+
 # %% Load subset of columns
 
 columns=['VendorID', 'trip_distance']
