@@ -24,3 +24,4 @@ df['vendor'].memory_usage(deep=True) / mb
 # %% Arrow string
 df['vendor'] = df['vendor'].astype('string[pyarrow]')
 df['vendor'].memory_usage(deep=True) / mb
+# %%
