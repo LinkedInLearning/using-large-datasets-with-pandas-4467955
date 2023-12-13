@@ -3,12 +3,12 @@
 # Exit on error
 set -e
 
-apt update
+sudo apt update
 # Required for dask visualzation
-apt install -y graphviz 
+sudo apt install -y graphviz 
 
 # Python depdencies
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # gcloud command
 cd ~
