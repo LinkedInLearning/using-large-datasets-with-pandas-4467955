@@ -13,7 +13,7 @@ pd_df.memory_usage(deep=True).sum() / 1_000_000
 
 # %%
 %%timeit
-df.groupby('VendorID').agg(
+df.group_by('VendorID').agg(
     pl.sum('total_amount')
 ).sort(
     pl.col('VendorID')
@@ -21,5 +21,4 @@ df.groupby('VendorID').agg(
 
 # %%
 %%timeit
-pd_df.groupby('VendorID')['total_amount'].sum()
-# %%
+pd_df.groupby('VendorID')['total_amount'].sum().sort_values()

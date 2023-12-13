@@ -1,4 +1,4 @@
-#%%
+#%% Calculate the average total amount
 import pyarrow.parquet as pq
 
 file_name = '../../data/yellow_tripdata_2021-02.parquet'
