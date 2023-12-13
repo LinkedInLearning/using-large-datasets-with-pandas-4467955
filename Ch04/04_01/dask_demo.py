@@ -5,7 +5,7 @@ file_name = '../../data/yellow_tripdata_2021-02.parquet'
 df = ddf.read_parquet(file_name)
 df
 
-# %% Percentage of tip in rides where payment was in cash
-credit = df[df['payment_type'] == 2]
-tip_pct = credit['tip_amount'] / credit['total_amount']
+# %% Maximal tip in percentage where payment is in cash
+cash = df[df['payment_type'] == 2]
+tip_pct = cash['tip_amount'] / cash['total_amount']
 max_tip = tip_pct.max()
