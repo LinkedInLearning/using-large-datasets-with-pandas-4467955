@@ -9,3 +9,4 @@ df
 cash = df[df['payment_type'] == 2]
 tip_pct = cash['tip_amount'] / cash['total_amount']
 max_tip = tip_pct.max()
+max_tip
