@@ -6,7 +6,6 @@ df = pd.read_parquet(file_name)
 df['total_amount'].plot.box()
 
 # %%
-
 total_med = df['total_amount'].median()
 total_med
 
