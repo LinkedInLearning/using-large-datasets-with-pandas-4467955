@@ -28,6 +28,9 @@ def norm_total_numba(value):
   return value
 
 # %%
+df = pd.read_parquet(file_name)
+
+# %%
 %%timeit
 values = df['total_amount'].to_numpy()
 norm_total_numba(values)
