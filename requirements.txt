@@ -1,5 +1,4 @@
 dask ~= 2023.12
-duckdb ~= 0.9
 graphviz ~= 0.20  # dask visualization
 numba ~= 0.58
 pandas ~= 2.1
