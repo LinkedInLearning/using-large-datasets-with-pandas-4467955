@@ -1,34 +1,24 @@
 # Using Large Datasets with pandas
 This is the repository for the LinkedIn Learning course `Using Large Datasets with pandas`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![lil-thumbnail-url]
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+As data grows in size and complexity, most enterprises start to think about how to migrate to a larger-format data system such as Spark. However, this move can be quite painful, and you’ll most likely need to learn an entirely new set of tools. In this course, join instructor Miki Tebeka to learn how to get started working with large datasets using pandas, the fast, powerful, flexible, and easy-to-use data analysis tool built on top of the Python programming language. Find out how to navigate storage formats, tips for saving memory, efficient memory computation strategies, and more. Along the way, Miki also demonstrates how to leverage a handful of alternatives to pandas that still use the same API, such as Dask, Polars, and Beefy VM.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out the “Using GitHub Codespaces with this course” video to learn how to get started.
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+### Instructor
+Miki Tebeka
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+CEO at 353Solutions
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+
+Check out my other courses on [LinkedIn Learning][URL-instructor-home].
+
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
-
+[lil-course-url]: https://www.linkedin.com/learning/using-large-datasets-with-pandas
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEeRSBj0hLNpw/learning-public-crop_675_1200/0/1707523042235?e=2147483647&v=beta&t=IybHF61EbQubSsH-lP5UC5URJW1SuWvRcQPhaO7bQu4
+[URL-instructor-home]: https://www.linkedin.com/learning/instructors/miki-tebeka?u=104
